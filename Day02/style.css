@@ -1,0 +1,40 @@
+.text-white{
+    color: white;
+}
+.text-blue{
+    color: blue;
+}
+.bg-yellow{
+    background-color: yellow;
+}
+.bg-red{
+    background-color: red;
+}
+.bg-white{
+    background-color: white;
+}
+.bg-green{
+    background-color: green;
+}
+.bg-blue{
+    background-color: blue;
+}
+.text-right{
+    text-align: right;
+}
+.text-center{
+    text-align: center;
+}
+.mybtn{
+    color: black;
+    background-color: aqua;
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 10px;
+    transition: 0.4s;
+}
+.mybtn:hover{
+    background-color: brown;
+    color: white;
+    transition: 0.4s;
+}

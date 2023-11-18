@@ -1,0 +1,26 @@
+body{
+    font-family: sans-serif;
+}
+.service-section > h1{
+    text-align: center;
+}
+.service-section > p{
+    text-align: center;
+}
+.service-container{
+padding: 50px;
+}
+.outer-div{
+    width: 25%;
+    float: left;
+    background-color: rgb(170, 98, 126);
+    margin: 10px;
+}
+.inner-div{
+    background-color: rgb(20, 98, 172);
+    margin: 10px;
+    border-radius: 10px;
+    border-left: 10px solid rgb(224, 22, 22);
+    /* box-shadow: [h-offset] [v-offset] [blur-radius] [optional spread radius] [color]; */
+    box-shadow: 10px 2px 8px rgb(199, 189, 189);
+}

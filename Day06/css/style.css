@@ -1,0 +1,67 @@
+html{
+    scroll-behavior: smooth;
+}
+body{
+    margin: 0px;
+    font-family: sans-serif;
+}
+.my-ul{
+   list-style-type: square; 
+}
+.my-ol{
+    list-style-type: disc;
+}
+.menu{
+    list-style-type: none;
+     /* overflow: hidden;     */
+      /* if li has float property  */
+      background-color: rgb(84, 17, 209);
+      text-align: right;
+      padding: 10px;
+      margin: 0px;
+      position: sticky;
+      top: 0;
+}
+.menu li{
+     display: inline; 
+    /* float: left; */
+    margin: 10px;
+}
+.menu a{
+    color: white;
+    text-decoration: none;
+}
+.about-content{
+    padding: 10px 100px;
+}
+.about-content img{
+    float: right;
+    width: 400px;
+    margin: 10px;
+}
+.about-content p{
+    text-align: justify;
+}
+.service-section{
+    padding-top: 20px;
+}
+.service-section >h1{
+    text-align: center;
+}
+.service-section >p{
+    text-align: center;
+}
+.service-container{
+    padding: 20px 100px;
+    display: flex;
+    /* flex used for same height */
+     /* flex: 1;  same size */
+}
+.service{
+    background-color: rgb(74, 154, 173);
+    margin: 10px;
+    padding: 10px;
+   flex: 1;
+   border-radius: 10px;
+   box-shadow:1px 1px 8px black;
+}

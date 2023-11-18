@@ -1,0 +1,46 @@
+body{
+    font-family: sans-serif;
+    background-color: rgb(204, 212, 219);
+}
+.login-div{
+    width: 80%;
+    box-shadow: 1px 1px 15px rgb(235, 243, 243);
+    margin: 50px auto;
+    background-color: rgb(167, 195, 219);
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    border-radius: 15px;
+}
+.left-div{
+    text-align: center;
+    padding-top: 10%;
+}
+.left-div h1{
+    margin-bottom: 100px;
+}
+.left-div input{
+    border: none;
+    display: block;
+    width: 50%;
+    background-color: rgb(200, 210, 219);
+    margin: 20px auto;
+    padding: 10px;
+    border-radius: 10px;
+}
+.btnlogin{
+    margin: 50px auto;
+}
+.btnlogin a{
+    background-color: red;
+    color: white;
+    padding: 10px 30px;
+    border-radius: 15px;
+    text-decoration: none;
+}
+.right-div{
+    background-color: red;
+    color: white;
+    text-align: center;
+    padding: 100px 50px;
+    border-radius: 0 15px 15px 0;
+}

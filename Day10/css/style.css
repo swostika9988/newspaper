@@ -1,0 +1,41 @@
+body{
+    font-family: sans-serif;
+}
+.first-class{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding-top: 10%;
+}
+.second-class img{
+    width: 90%;
+}
+.myform{
+    text-align: center;
+}
+.input-group{
+    margin: 10px 5px;
+   
+    
+}
+.input-group input{
+    display: block;
+    text-align: center;
+    width: 40%;
+    padding: 10px;
+    border: 1px solid rgb(90, 106, 197);
+    border-radius: 10px;
+    margin: auto;
+}
+.input-group input:focus{
+    outline: 2px solid rgb(114, 79, 114) ;
+}
+.input-group input[type=submit]
+{
+     background-color: blue; 
+     text-align: center;
+    width: 80px;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    cursor: pointer;
+}
